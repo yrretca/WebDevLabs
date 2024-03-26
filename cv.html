@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <meta name="author" content="Terry Kim">
+    <meta name="keywords" content="Carnegie Mellon University, Information Systems">
+    <meta name="description" content="Terry Kim's professional website">
+    <link rel="stylesheet" href="../static/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script defer src="../static/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <title>Terry Kim</title>
+</head>
+<body onload="addYear()">
+    <header>
+        <h1 id="webname">Terry Kim</h1>
+        <nav id="myTopnav" class="topnav">
+            <a href="index.html">Home</a>
+            <a href="cv.html" class="active">CV</a>
+            <a href="contact.html">Contact Me</a>
+            <a href="fun.html">For Fun</a>
+            <a href="javascript:void(0);" class="icon">
+
+                <i class="fa fa-bars" onclick="activeNav()"></i>
+     
+                </a>
+        </nav>
+    </header>
+    <div class="main">
+        <h2>Curriculu Vitae</h2>
+        <table>
+            <tr><th>Name</th><th>Description</th></tr>
+            <tr><td>Carnegie Mellon University</td><td>B.S. Information Systems</td></tr>
+            <tr><td>Netmarble</td><td>Product Management Internship</td></tr>
+            <tr><td>Carnegie Mellon Math Department</td><td>Summer Research</td></tr>
+        </table>        
+        <a href="../static/Kim_Terry_Resume.pdf" target="_blank">My resume - pdf version</a>
+    </div>
+    <footer>
+        <p id="copyYear">Terry Kim &copy;</p>
+    </footer>
+    
+</body>
+</html>
